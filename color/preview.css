@@ -1,0 +1,61 @@
+
+/* ---------- Color form ----------- */
+#color_scheme_form #palette .form-item {
+  width: 25em;
+}
+#color_scheme_form #palette .form-item label {
+  width: 15em;
+}
+
+/* ---------- Preview Styles ----------- */
+
+html.js #preview {
+  clear: both;
+  float: none !important;
+}
+#preview {
+  background-color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: hidden;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+#preview-imagebox {
+ 	background: url("../images/imagebox.jpg") repeat-x scroll 0 0 #333333;
+ 	background-size: 650px 50px;
+    height: 40px;
+    margin: auto;
+    max-width: 650px;
+    padding: 0;
+    width: 100%;
+   
+}
+
+#preview-promobox {
+	background-color: #333333;
+	color: #333333;
+    float: right;
+    height: 40px;
+    overflow: auto;
+    width: 80px;	
+    margin-right: 140px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+#preview-promobox h2			{
+	margin:4px 0px 1px 3px; 
+	font-size:100%; 
+}
+
+#preview-header {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+}
+#preview-logo {
+  float: left;
+  padding: 15px 15px 15px 10px;
+}

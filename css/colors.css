@@ -1,0 +1,8 @@
+
+/* ---------- Color Module Styles ----------- */
+
+#promobox			{width:180px; height:60px; overflow:auto; float:right; background:#e2af2d;}
+
+#promobox h2			{margin:17px 0px 5px 15px; font-size:110%; color:#464666;}
+#promobox p			{margin-left:10px; font-size:110%; color:#464666;}
+#promobox a			{color:#464666;}

@@ -1,0 +1,28 @@
+#main {
+  background: white;
+  margin-left: 0;
+  min-width: 400px
+}
+
+.cke_panel_frame {
+  background: white;
+}
+
+.cke_panel_frame h2 {
+  color: #886600;
+  font-size: 130%;
+  margin: 5px 0;
+}
+
+.cke_panel_frame h3 {
+  color: #464666;
+  font-size: 120%;
+  margin: 2px 0;
+}
+
+.cke_panel_frame h4 {
+  color: #886600;
+  font-size: 120%;
+  font-style: italic;
+  font-weight: normal;
+}
