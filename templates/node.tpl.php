@@ -1,3 +1,4 @@
+<!-- node.tpl.php -->
 <article<?php print $attributes; ?>>
   <?php print $user_picture; ?>
   <?php print render($title_prefix); ?>
@@ -28,3 +29,5 @@
     <?php print render($content['comments']); ?>
   </div>
 </article>
+<!-- /node.tpl.php -->
+
