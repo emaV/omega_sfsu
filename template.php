@@ -63,11 +63,11 @@ function omega_sfsu_process_region(&$vars) {
         else {
           $linked_site_name = str_replace('title="Home"', 'class="site" title="Home"', $linked_site_name) . $sfsu_department;
         }//else
-             
+
         // imagebox css       
-        $imagebox_css = '#imagebox  {width:100%; max-width:900px; height:60px; margin:auto; padding:0; background:#333333 url(' . $vars['logo'] . ') repeat-x 50% 0;}';
-        $imagestripe_css = '#imagestripe  {width:100%; background:#333333 url(' . $vars['logo'] . ') repeat-x 50% 0;}';
-        
+        $imagebox_css = '#imagebox  {background-image: url(' . $vars['logo'] . ') repeat-x 50% 0;}';
+        $imagestripe_css = '#imagestripe  {background-image: url(' . $vars['logo'] . ') repeat-x 50% 0;}';
+
         // Create promobox text
         $sfsu_promobox_text = theme_get_setting('sfsu_promobox_text');
         if(strlen(trim($sfsu_promobox_text)) > 0){
