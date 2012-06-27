@@ -52,14 +52,15 @@ stylesheets[all][] = css/colors.css
 
 ; OPTIONAL STYLESHEETS
 
-css[global.css][name] = Your custom global styles
+css[global.css][name] = SFSU global styles (from standardt template http://www.sfsu.edu/~news/webtemplate/index.html)
 css[global.css][description] = This file holds all the globally active custom CSS of your theme.
 css[global.css][options][weight] = 10
 
 
 
 ; SFSU JS
-scripts[] = "js/global.js"
+; this should be really merged in CSS
+;scripts[] = "js/global.js"
 
 ; THEME SETTINGS (DEFAULTS)
 
