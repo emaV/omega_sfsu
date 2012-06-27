@@ -806,12 +806,14 @@ input.gobutton:hover,
 #main {
   min-height: 300px
 }
-#region-content
-/*#sitestripe */
+/*
+#region-content,
+#sitestripe
   {
   margin-left: 0px;
   margin-right: 0px;
 }
+*/
 select {
   height: auto
 }
